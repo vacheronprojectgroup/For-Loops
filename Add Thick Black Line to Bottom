@@ -7,7 +7,7 @@ var height = image.getHeight();
 // Define the number of rows to be black (bottom twenty rows)
 var numRowsToBlack = 20;
 
-// Loop through the pixels in the bottom ten rows
+// Loop through the pixels in the bottom twenty rows
 for (var y = height - numRowsToBlack; y < height; y++) {
   for (var x = 0; x < width; x++) {
     // Set the color of the pixel to black (red = 0, green = 0, blue = 0)

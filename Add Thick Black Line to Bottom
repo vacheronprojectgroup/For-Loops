@@ -4,7 +4,7 @@ var image = new SimpleImage("nyc-skyline.jpg");
 var width = image.getWidth();
 var height = image.getHeight();
 
-// Define the number of rows to be black (bottom ten rows)
+// Define the number of rows to be black (bottom twenty rows)
 var numRowsToBlack = 20;
 
 // Loop through the pixels in the bottom ten rows
